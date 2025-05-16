@@ -1,30 +1,10 @@
 <?php
 /*
-Template Name: Политика конфиденциальности онлайн
+Template Name: Политика конфиденциальности для операторов конфиденциальных данных
 */
 ?>
 
-<?php get_header(); ?>
 
-<body>
-    <header class="header">
-        <div class="header_inner container">
-            <!-- Логотип -->
-
-            <?php get_template_part('parts/logo'); ?>
-            <!-- Меню десктоп -->
-
-            <?php get_template_part('parts/landing-nav'); ?>
-
-
-            <!-- Социальные сети    -->
-            <?php get_template_part('parts/socials-icons'); ?>
-
-            <?php get_template_part('parts/burger-button'); ?>
-
-    </header>
-
-    <body>
         <main class="container section policy">
             <h1 class="dark-text">Политика конфиденциальности</h1>
             <p class="paragraphe dark-text">Настоящая Политика конфиденциальности (далее — «Политика») определяет порядок обработки и защиты персональных данных пользователей (далее — «Пользователь»), предоставляемых при использовании сайта <?php echo esc_html(get_bloginfo('name')); ?>.</p>
@@ -122,15 +102,3 @@ Template Name: Политика конфиденциальности онлай�
             </ul>
 
         </main>
-
-
-
-
-
-        <?php get_footer(); ?>
-        <?php get_template_part('parts/mobile-menu-landing'); ?>
-
-        <?php wp_footer(); ?>
-    </body>
-
-    </html>
